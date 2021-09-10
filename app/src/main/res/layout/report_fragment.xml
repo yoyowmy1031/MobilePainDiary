@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/report_fragment">
+    <Button
+        android:id="@+id/loc_pie"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:text="Pain Location"/>
+
+    <Button
+        android:id="@+id/remain_steps"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/pain_weather_line"
+        android:layout_toRightOf="@+id/loc_pie"
+        android:text="Remaining Steps" />
+
+    <Button
+        android:id="@+id/pain_weather_line"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="Pain and Weather" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_container_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/remain_steps"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp" />
+
+</RelativeLayout>
+
+

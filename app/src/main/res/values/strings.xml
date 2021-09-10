@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">MobilePainDiary</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid email address</string>
+    <string name="invalid_password">Password must contain at least 6 characters 1 uppercase 1 lowercase 1 number</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="unknown_exception">"Unknown error has happened"</string>
+    <string name="alarm_time">"Alarm time set: "</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoieW95b3d3dyIsImEiOiJja2t3NWdwaXkxN2hrMnZtcGJ4Z3Q5MGdtIn0.4NmeBZJ-a_7F903xyhjQpA</string>
+<!--    <string-array name="pain_location_array">-->
+<!--        <item>back</item>-->
+<!--        <item>head</item>-->
+<!--        <item>knees</item>-->
+<!--        <item>hips</item>-->
+<!--        <item>abdomen</item>-->
+<!--        <item>elbows</item>-->
+<!--        <item>shoulders</item>-->
+<!--        <item>shins</item>-->
+<!--        <item>jaw</item>-->
+<!--        <item>facial</item>-->
+<!--    </string-array>-->
+
+</resources>

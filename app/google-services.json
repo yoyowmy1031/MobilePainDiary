@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "58833964082",
+    "project_id": "pain-diary-app",
+    "storage_bucket": "pain-diary-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58833964082:android:381869d8bda512b10e402b",
+        "android_client_info": {
+          "package_name": "com.example.firebasesignupexperiment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58833964082-r62kese8s3gqi858u9b8tg254lkunkah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgWYE1bRRjvx5FDRFm8Pow0jU-3_rg41M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58833964082-r62kese8s3gqi858u9b8tg254lkunkah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58833964082:android:78cec1c20cd02e3f0e402b",
+        "android_client_info": {
+          "package_name": "com.example.mobilepaindiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58833964082-r62kese8s3gqi858u9b8tg254lkunkah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgWYE1bRRjvx5FDRFm8Pow0jU-3_rg41M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58833964082-r62kese8s3gqi858u9b8tg254lkunkah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pain_data_entry_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alarm_time"
+        android:id="@+id/alarm_time"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Alarm for Entry"
+        android:id="@+id/set_alarm_button"/>
+
+
+    <TextView
+        android:id="@+id/entry_notice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/pain_intensity_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Pain Intensity Level"
+        />
+
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/pain_intensity_slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:label=" Enter the pain intensity Level (1~10)"
+        android:stepSize="1"
+        android:value="1"
+        android:valueFrom="0"
+        android:valueTo="10"
+        app:haloColor="@color/yellow_500"
+        />
+
+    <TextView
+        android:id="@+id/pain_location_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Location of Pain"
+        />
+
+    <Spinner
+        android:id="@+id/pain_location_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/mood_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Mood"
+        />
+
+
+    <RadioGroup
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/very_low"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/very_low_icon"
+            android:gravity="center"
+            android:text="veryLow" />
+
+        <RadioButton
+            android:id="@+id/low"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/low_icon"
+            android:gravity="center"
+            android:text="low" />
+
+        <RadioButton
+            android:id="@+id/average"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/average_icon"
+            android:gravity="center"
+            android:text="average"/>
+
+        <RadioButton
+            android:id="@+id/good"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/high_icon"
+            android:gravity="center"
+            android:text="good"/>
+
+        <RadioButton
+            android:id="@+id/very_good"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/very_high_icon"
+            android:gravity="center"
+            android:text="veryGood" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/goal_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Goal Steps Per Day"
+        />
+
+    <EditText
+        android:id="@+id/goal_text_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10000"
+        android:hint="recommended 10,000 steps per day"
+        />
+
+    <TextView
+        android:id="@+id/actual_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Actual Steps Today"
+        />
+    <EditText
+        android:id="@+id/actual_text_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="recommended 10,000 steps per day"
+        />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        />
+
+    <Button
+        android:id="@+id/edit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        />
+    <TextView
+        android:id="@+id/text_view_read"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
