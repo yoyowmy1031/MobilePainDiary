@@ -12,7 +12,7 @@
     <string name="login_failed">"Login failed"</string>
     <string name="unknown_exception">"Unknown error has happened"</string>
     <string name="alarm_time">"Alarm time set: "</string>
-    <string name="mapbox_access_token">pk.eyJ1IjoieW95b3d3dyIsImEiOiJja2t3NWdwaXkxN2hrMnZtcGJ4Z3Q5MGdtIn0.4NmeBZJ-a_7F903xyhjQpA</string>
+    <string name="mapbox_access_token">xxx</string>
 <!--    <string-array name="pain_location_array">-->
 <!--        <item>back</item>-->
 <!--        <item>head</item>-->
